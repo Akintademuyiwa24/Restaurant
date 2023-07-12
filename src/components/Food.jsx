@@ -32,7 +32,7 @@ const Food = () => {
             {/* filter type */}
             <div>
                 <p className='font-bold text-gray-700'>Filter Typer</p>
-                <div className='flex justify-between flex-wrap'>
+                <div className='flex justify-evenly flex-wrap'>
                     <button onClick={() => setFoods(data)} className=' m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>All</button>
                     <button onClick={() => filterType('burger')} className=' m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>Burgers</button>
                     <button onClick={() => filterType('pizza')} className=' m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>Pizza</button>
